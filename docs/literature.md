@@ -12,4 +12,4 @@ Fair-SMOTE algorithm removes biased labels; and rebalances internal distribution
 - Does the algorithm behaves the same when presented with different set of data that has different characteristics?
 - Is there any way to improve the algorithm to make the output more accesible for non-technical persons?
 - **Situation Testing**: Is this the only reliable tactic to detect discrimination, is there any other method that we could compare to?
-- - **Situation Testing**: Chakraboty uses logistic regression model but could we use different model and compare its effectiveness?
+- **Situation Testing**: Chakraboty uses logistic regression model but could we use different model and compare its effectiveness?
