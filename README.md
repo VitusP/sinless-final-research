@@ -15,4 +15,4 @@ This is Vitus Putra and Yi Qiu's *Sinless Software Engineering (CSC 591)* final 
 
 ### <a href="https://vitusp.github.io/">Code Documentation Page</a>
 
-#### <a href="https://vitusp.github.io/sinless-swe/literature">HW8 Research Ideas</a>
+#### <a href="https://vitusp.github.io/sinless-final-research/literature">HW8 Research Ideas</a>
