@@ -1,6 +1,10 @@
 # Research Ideas: Fairness of Software Engineering
-
 ## Base Research by Joymallya Chakraborty on Fair-SMOTE [(Paper)](https://www.researchgate.net/figure/Many-tools-try-to-find-or-explain-or-mitigate-bias-Fair-SMOTE-addresses-all-three_fig1_351892971)
+The Fair-SMOTE data balancing method does perfect balance. That means training data contains 25% examples of each subgroup (Male-Positive, Male-Negative, Female-Positive, Female-Negative). We could maybe show the change of bias scores with respect to different balancing ratios.
+
+What happens when you have 70% Male-Positive, 10% Male-Negative, 10% Female-Positive, 10% Female-Negative?
+What happens when you have 10% Male-Positive, 70% Male-Negative, 10% Female-Positive, 10% Female-Negative?
+
 The paper postulates that:
 * The root causes of bias are the prior decisions that affect- What data was selected and 
 * The labels assigned to those examples
