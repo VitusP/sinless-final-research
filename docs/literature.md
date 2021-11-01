@@ -27,3 +27,28 @@ Fair-SMOTE algorithm removes biased labels; and rebalances internal distribution
 - Is there any way to improve the algorithm to make the output more accesible for non-technical persons?
 - **Situation Testing**: Is this the only reliable tactic to detect discrimination, is there any other method that we could compare to?
 - **Situation Testing**: Chakraboty uses logistic regression model but could we use different model and compare its effectiveness?
+
+## Supporting Research [Fairness in Machine Learning Survey](literature/Fairness-in-ML-Survey.pdf)
+- with automated decision using AI become more prevalent, fairness consideration needs to be investigated further
+- Fairness in ML key methodological components:
+  - Pre-processing, in-processing, post-processing. We need a fairness metrics
+  - For metrics, we have individual and group fairness. Increasing fairness often results in lower accuracy.
+- Pre-processing: Argued as the modt flexible as it makes no assumption with respect to the choice of subsequently applied modeling technique. 
+
+## Supporting Research [Impact of Data Preparation on the Fairness of Software Systems](literature/Role-of-Preprocessing.pdf)
+- This paper asses the impact of widely adopted data preparation procedures on AI model performance and fairness.
+- Data preparation is key in any machine learning pipelines, but its effect on fairness is yet to be studied in detail. The development of AI model could raises societal and legal concerns, as their decision may lead to unfair treatment of individuals based on attributes such as race and gender. 
+  - Removal of Sensitive Attributes
+  - Encoding of Categorical Attributes
+  - Instance Selection Method using Cross validation and random undersampling
+- **Experiment:**
+1. conduct the experiment with 2 dataset, and performed a
+70/30 stratified split to maintain the distributions of
+the true labels and the sensitive attribute on each set. 
+2. discretise .the numerical
+attributes into 4 bins with the boundaries corresponding to those of the interquartile ranges.
+3. rebalance the dataset using sampling.
+4. performed experiments with Decision Trees and
+Random Forests. Assert with five-fold cross-validation with the help of
+the methods provided by Scikit-learn."
+
